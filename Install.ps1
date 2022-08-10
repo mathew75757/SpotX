@@ -1175,7 +1175,6 @@ function Helper($paramname) {
                 ExpFeatures14 = '(Enable audio equalizer for Desktop and Web Player",default:)(!1)', '$1!0' 
                 ExpFeatures15 = '(Enable showing a new and improved device picker UI",default:)(!1)', '$1!0'
                 ExpFeatures16 = '(Enable the new home structure and navigation",default:)(!1)', '$1!0'
-                ExpFeatures17 = '(Show "Made For You" entry point in the left sidebar.,default:)(!1)', '$1!0'
             }
             if ($enhance_like_off) { $exp_features.Remove('ExpFeatures10') }
             if ($enhance_playlist_off) { $exp_features.Remove('ExpFeatures11') }
@@ -1184,7 +1183,6 @@ function Helper($paramname) {
             if ($equalizer_off) { $exp_features.Remove('ExpFeatures14') }
             if ($device_new_off) { $exp_features.Remove('ExpFeatures15') }
             if (!($enablenavalt)) { $exp_features.Remove('ExpFeatures16') }
-            if ($made_for_you_off) { $exp_features.Remove('ExpFeatures17') }
             if ($exp_standart) {
                 $exp_features.Remove('ExpFeatures10'), $exp_features.Remove('ExpFeatures11'), 
                 $exp_features.Remove('ExpFeatures12'), $exp_features.Remove('ExpFeatures13'), 
