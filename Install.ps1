@@ -46,7 +46,7 @@ param
     [switch]$hide_col_icon_off,
     
     [Parameter(HelpMessage = 'Do not enable the made for you button on the left sidebar.')]
-    [switch]$made_for_you_off,
+    [switch]$made_for_you_on,
     
     [Parameter(HelpMessage = 'Do not enable enhance playlist.')]
     [switch]$enhance_playlist_off,
